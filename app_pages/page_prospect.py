@@ -95,6 +95,9 @@ def DrawInputsWidgets():
 
     # We are using these features to feed the ML pipeline - values copied from check_variables_for_UI() result
 
+    # {'PhoneService', 'InternetService', 'PaymentMethod',
+    #     'MonthlyCharges', 'Contract', 'OnlineBackup'}
+
     # create an empty DataFrame, which will be the live data
     X_live = pd.DataFrame([], index=[0])
 

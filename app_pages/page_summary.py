@@ -1,5 +1,6 @@
 import streamlit as st
 
+
 def page_summary_body():
 
     st.write("### Quick Project Summary")
@@ -24,7 +25,6 @@ def page_summary_body():
         f"* For additional information, please visit and **read** the "
         f"[Project README file](https://github.com/Code-Institute-Solutions/churnometer).")
     
-
     # copied from README file - "Business Requirements" section
     st.success(
         f"The project has 2 business requirements:\n"
